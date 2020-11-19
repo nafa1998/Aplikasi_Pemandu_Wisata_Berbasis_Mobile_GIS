@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Madukismo Guides</string>
+    <string name="title_activity_lokasi">Map</string>
+
+    <string name="tentang_madubaru">
+        <item>PT. MaduBaru Madukismo adalah pabrik Gula  dan  Alkohol / Spirtus  di Propinsi  DIY.
+              Pabrik ini mengemban  tugas untuk  mensukseskan  program pengadaan  pangan  Nasional,
+              khususnya gula pasir guna memenuhi kebutuhan masyarakat terhadap komsumsi gula.
+        </item>
+    </string>
+
+    <string name="alamat">
+        <item>Desa Padokan Tirtonirmolo, Kecamatan Kasihan, Rogocolo, Tirtonirmolo, Bantul, Daerah Istimewa Yogyakarta 55181</item>
+    </string>
+
+    <string name="sejarah_page1">
+        <item>Kepemilikan saham PT. Madu Baru pada awal berdirinya sebesar 75% dipegang
+oleh Sri Sultan Hamengku Buwono IX dan 25 % dipegang oleh pemerintah Indonesia (Departemen Pertanian Republik Indonesia).</item>
+    </string>
+
+    <string name="sejarah_page2">
+        <item>Pada tahun 1966 BPU-PPN dibubarkan dan PT. Madubaru kembali menjadi
+perusahaan swasta dengan Sri Sultan Hamengku Buwono sebagai presiden direktur.</item>
+    </string>
+
+    <string name="sejarah_page3">
+        <item>Mulai tanggal 4 maret 1984 pengelolaan PT. Madubaru diserahkan pada PT.
+Rajawali Nusantara Indonesia, berdasarkan kontrak manajemen 10 tahun pertama.
+Sampai saat ini saham PT. Madu Baru sebesar 65% dipegang oleh Sri Sultan
+Hamengku Buwono dan 35% dipegang oleh pemerintah Indonesia. Berdasarkan
+keputusan Menteri BUMN No.KEP-01/MBU/2003 tanggal 4 Februari tahun 2003
+dan telah diundangkan dengan Peraturan Pemerintah No.03 tahun 2004 tanggal
+14 Januari 2004 tentang penambahan penyertaan modal Negara Republik
+Indonesia kedalam modal saham perusahaan PT. Rajawali Nusantara Indonesia
+sebesar 35%, maka PT. Rajawali Nusantara Indonesia saat ini sebagai pemegang
+saham minoritas PT. Madubaru. </item>
+    </string>
+
+    <string name="step1">
+        <item><p>Proses dipisahkan antara bagian padat tebu, yaitu ampas dengan bagian cair
+tebu, yaitu nira. Alat-alat yang digunakan untuk proses pemerahan tersebut
+berupa Unigrator Mark IV dan Cane Knaife yang digabung dalam 5 gilingan yang
+masing-masing terdiri dari 3 rol dengan ukuran 36” x 64”. Ampas yang diperoleh
+sebesar 30% digunakan sebagai bahan bakar di stasiun pembangkit tenapa uap,
+            kemudian dikirim kebagian pemurnian untuk diproses lebih lanjut.</p></item>
+    </string>
+
+    <string name="step2">
+        <item><p>Sistem yang digunakan dalam pemurnian nira adalah sistem sulfitasi. Nira
+mentah ditimbang, kemudian dipanaskan dengan suhu sebesar 70-75oC.
+Direaksikan dengan susu kapur dalam defekator dan diberi gas SO2 dalam peti
+sulfitasi dampai pH 7.00. Setelah itu dipanaskan lagi hingga mencapai suhu 100-
+105oC. Kotoran yang dihasilkan diendapkan dalam peti pengendap (Dorr
+            Clarifier) dan disaring menggunakan Rotary Vacuum Filter (alat penapis hampa).</p></item>
+    </string>
+
+    <string name="step3">
+        <item><p>Nira jernih dipekatkan di dalam evaporator dengan sistem multiple effect yang
+disusun secara interchangeable agar dapat dibersihkan secara bergantian. Nira
+encer dengan padatan terlarut 16% dapat dinaikan menjadi 64% dan disebut nira
+kental yang siap dikristalkan di stasiun kristalisasi/stasiun masakan. Total luas
+bidang pemanas sebesar 5,999 m VO. Nira kental yang berwarna gelap ini diberi
+gas SO2 sebagai bleaching/pemucat dan siap untuk dikristalkan.</p></item>
+    </string>
+
+    <string name="step4">
+        <item><p>Proses kristalisasi dilakukan pada stasiun masakan. Nira kental dari stasiun
+penguapan akan diuapkan lagi dalam pan kristalisasi sampai lewat jenuh hingga
+timbul kristal gula. Sistem yang digunakan adalah ACD, dimana gula digunakan
+sebagai produk gula C dan gula D sebagai gula bibit (seed), serta sebagian lagi
+dilebur untuk dimasak lagi. Pemanasan menggunakan uap dengan tekanan
+dibawah atmosfer dengan vacuum sebesar 65 Cm Hg, hingga suhu didihnya
+hanya 63 Celcius.</p></item>
+    </string>
+
+    <string name="step5">
+        <item><p>Alat ini bertugas memisahkan gula dengan larutannya (stroop) dengan gaya
+centrifugal. Putaran gula yang tersedia adalah sebagai berikut :
+            <p>i. 3 buah bradbent 48” x 30” untuk masakan A</p>
+            <p>ii. 4 buah Batch Sangerhausen 48” x 28” untuk masakan A</p>
+            <p>iii. 2 buah Western Stated CC5 untuk masakan D</p>
+            <p>iv. 6 buah Batch Sangerhausen 48” x 28” untuk gula SHS</p>
+        </p></item>
+    </string>
+
+    <string name="step6"><item><p>Dengan alat penyaring gula, gula SHS dari putaran SHS dipisahkan antara gula 
+halus, gula kasar, dan gula normal. Gula normal dikirim kegudang gula dan 
+dikemas dalam karung plastik (polipropoline), kapasitas 50 kg netto. Produk gula 
+perhari tergantung rendemen gulanya. Jika rendemennya 8%, maka pada 
+kapasitas 3000 tth diperoleh gula 2.400 ku atau 4.800 zak. </p></item></string>
+    <string name="title_activity_lok_pemerahan">Map</string>
+    <string name="title_activity_lok_pemurnian">Map</string>
+    <string name="title_activity_lok_penguapan">Map</string>
+    <string name="title_activity_lok_kristalisasi">Map</string>
+    <string name="title_activity_lok_puteran">Map</string>
+    <string name="title_activity_lok_gudang">Map</string>
+
+
+</resources>

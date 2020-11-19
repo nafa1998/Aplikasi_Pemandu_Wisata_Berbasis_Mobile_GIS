@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp"
+    tools:context=".Sejarah">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="8dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="40dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:textColor="#c0392b"
+                android:textSize="18sp"
+                android:text="SEJARAH"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="PT. MADUBARU"
+                android:textColor="#6f6f6f"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="(PG/PS MADUKISMO)"
+                android:textColor="#6f6f6f"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_marginTop="12dp"
+                android:src="@drawable/sejarah1"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="12dp"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="2">
+                <TableRow
+                    android:background="#1abc9c">
+                    <TextView
+                        android:textColor="#ecf0f1"
+                        android:layout_width="93dp"
+                        android:layout_column="1"
+                        android:padding="3dip"
+                        android:text="Dibangun  " />
+
+                    <TextView
+                        android:textColor="#c0392b"
+                        android:gravity="left"
+                        android:padding="3dip"
+                        android:text="1955" />
+
+                </TableRow>
+                <TableRow android:background="#1abc9c">
+                    <TextView
+                        android:textColor="#ecf0f1"
+                        android:layout_column="1"
+                        android:text="Atas Prakarsa "
+                        android:padding="3dip" />
+                    <TextView
+                        android:textColor="#c0392b"
+                        android:text="Sri Sultan"
+                        android:gravity="left"
+                        android:padding="3dip" />
+                </TableRow>
+                <TableRow android:background="#1abc9c">
+                    <TextView
+                        android:layout_column="1"
+                        android:text=""
+                        android:padding="3dip" />
+                    <TextView
+                        android:textColor="#c0392b"
+                        android:text="Hamengkubuwon IX"
+                        android:gravity="left"
+                        android:padding="3dip" />
+                </TableRow>
+                <TableRow android:background="#1abc9c">
+                    <TextView
+                        android:textColor="#ecf0f1"
+                        android:layout_column="1"
+                        android:text="Diresmikan"
+                        android:padding="3dip" />
+                    <TextView
+                        android:textColor="#c0392b"
+                        android:text="29 Mei 1958"
+                        android:gravity="left"
+                        android:padding="3dip" />
+                </TableRow>
+                <TableRow android:background="#1abc9c">
+                    <TextView
+                        android:textColor="#ecf0f1"
+                        android:layout_column="1"
+                        android:text="Mulai Produksi"
+                        android:padding="3dip" />
+                    <TextView
+                        android:textColor="#c0392b"
+                        android:text="Pabrik Gula 1958"
+                        android:gravity="left"
+                        android:padding="3dip" />
+                </TableRow>
+            </TableLayout>
+        <ImageView
+            android:layout_marginTop="12dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/sejarah4" />
+            <TextView
+                android:layout_marginTop="12dp"
+                android:textColor="#6f6f6f"
+                android:textSize="12sp"
+                android:gravity="start"
+                android:text="@string/sejarah_page1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginTop="12dp"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/sejarah3" />
+            <TextView
+                android:layout_marginTop="12dp"
+                android:textColor="#6f6f6f"
+                android:textSize="12sp"
+                android:gravity="start"
+                android:text="@string/sejarah_page2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginTop="12dp"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/sejarah2" />
+            <TextView
+                android:layout_marginTop="12dp"
+                android:id="@+id/text"
+                android:text="@string/sejarah_page3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/kembali"
+                android:layout_below="@id/card1"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/homemark"
+                android:onClick="home"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</ScrollView>

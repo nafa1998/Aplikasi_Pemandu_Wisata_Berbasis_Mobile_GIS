@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bgpelajari"
+    tools:context=".Step1">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.synnapps.carouselview.CarouselView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:pageColor="#000000"
+            app:fillColor="#FFFFFF"
+            app:slideInterval="3000"
+            app:radius="6dp"
+            app:strokeColor="#FF777777"
+            app:strokeWidth="1dp"
+            android:id="@+id/carousel"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_below="@id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="40dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textColor="#6f6f6f"
+                    android:textSize="18sp"
+                    android:text="Pemurnian Nira"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/step2"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/layout2"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/buttonback"
+            android:onClick="kembali"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/backmark"/>
+        <ImageView
+            android:id="@+id/lokasi"
+            android:onClick="lokasi"
+            android:layout_centerHorizontal="true"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/locmark"/>
+        <ImageView
+            android:id="@+id/buttonhome"
+            android:onClick="beranda"
+            android:layout_alignParentRight="true"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/homemark"/>
+    </RelativeLayout>
+
+</RelativeLayout>
